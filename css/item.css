@@ -223,11 +223,31 @@ body table#itemtable tr > .options {
 }
 
 /* dashboard items */
+#type .selectorlevels {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+}
+
+#type .ui-selectmenu-text {
+  color: #0b96cd;
+}
+
+#dashcontent .selectorlevels {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+}
+
+#dashcontent .ui-selectmenu-text {
+  color: #0b96cd;
+}
+
 #dashcontent .item #lastupdate {
   left: 20px;
   top: 40px;
-  right: auto;
-  bottom: auto;
+  right: 20px;
+  bottom: 15px;
 }
 
 /* temperature, weather items */
