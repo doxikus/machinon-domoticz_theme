@@ -911,7 +911,7 @@ body table#itemtabledoubleicon .wrapper {
   }
   .navbar .nav {
     margin: 0 !important;
-    float: none;
+    float: left;
   }
   .navbar .nav > li {
     float: none;
