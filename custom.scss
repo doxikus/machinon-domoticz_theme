@@ -81,6 +81,7 @@ button.menu-toggle {
 }
 
 .navbar {
+    border-bottom: 1px solid #0b96cd;
 
     .brand {
         position: absolute;
@@ -97,8 +98,7 @@ button.menu-toggle {
     }
 
     .nav {
-        li a,
-        li a:hover {
+        li a{
             background: none;
             background-color: #fff;
             color: #1a1a1a;
@@ -106,16 +106,23 @@ button.menu-toggle {
             border-radius: 0;
             position: relative;
 
-            &:before {
-                content: '';
-                height: 2px;
-                width: 100%;
-                background-color: #0b96cd;
-                position: absolute;
-                left: 0;
-                bottom: 0;
+            // &:before {
+            //     content: '';
+            //     height: 2px;
+            //     width: 100%;
+            //     background-color: #0b96cd;
+            //     position: absolute;
+            //     left: 0;
+            //     bottom: 0;
+            // }
+            &:hover{
+            background: none;
+            background-color: #0b96cd;
+            color: #fff;
+            border: none;
+            border-radius: 0;
+            position: relative;
             }
-
         }
 
         > li > .dropdown-menu {
@@ -677,7 +684,7 @@ body table#itemtabledoubleicon .wrapper{
     }
 
     .navbar .divider-vertical {
-        margin: 0 20px;
+        margin: 0 0px;
     }
 
 }

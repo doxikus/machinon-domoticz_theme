@@ -4,18 +4,21 @@
 .statusProtected .dimslider {
   background: rgba(0, 0, 0, 0.26);
   border: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   height: 5px;
   bottom: 50px;
   right: 20px;
   width: 55% !important;
 }
+
 #type .dimslider .ui-slider-range,
 .input .dimslider .ui-slider-range,
 .statusNormal .dimslider .ui-slider-range,
 .statusProtected .dimslider .ui-slider-range {
   background: rgba(11, 151, 205, 0.5);
 }
+
 #type .dimslider .ui-slider-handle,
 .input .dimslider .ui-slider-handle,
 .statusNormal .dimslider .ui-slider-handle,
@@ -31,9 +34,9 @@
   #type .dimslider, .input .dimslider {
     width: 260px !important;
   }
-
   #itemtabledoubleicon .dimslider,
-#itemtablesmalldoubleicon .dimslider {
+  #itemtablesmalldoubleicon .dimslider {
     width: 230px !important;
   }
 }
+/*# sourceMappingURL=dimslider.css.map */
