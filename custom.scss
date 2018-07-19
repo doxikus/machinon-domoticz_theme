@@ -82,7 +82,9 @@ button.menu-toggle {
 
 .navbar {
     border-bottom: 1px solid #0b96cd;
-
+    .nav{
+        float: left;
+    }
     .brand {
         position: absolute;
         top: 5px;
@@ -527,7 +529,7 @@ body table#itemtabledoubleicon .wrapper{
         .nav {
             margin: 0!important;
             float: left;
-            
+
 
             > li {
                 float: none;

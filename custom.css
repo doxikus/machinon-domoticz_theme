@@ -542,6 +542,10 @@ button.menu-toggle {
   border-bottom: 1px solid #0b96cd;
 }
 
+.navbar .nav {
+  float: left;
+}
+
 .navbar .brand {
   position: absolute;
   top: 5px;
